@@ -10,7 +10,7 @@ TestLuckyTickets::TestLuckyTickets(LuckyTicketsFunc f) : luckyTicketsFunc(std::m
 void TestLuckyTickets::run() const
 {
     int iter = 0;
-    const auto ticketsDir = std::filesystem::current_path() / "Tickets";
+    const auto ticketsDir = std::filesystem::current_path() / "1.Tickets";
     while (true)
     {
 
